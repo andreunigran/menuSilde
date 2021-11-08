@@ -4,10 +4,18 @@
     tools:showIn="navigation_view">
 <group android:checkableBehavior="single">
     <item
-        android:title="email"
-        android:id="@+id/it_email"
-        android:titleCondensed="Email"
-        android:icon="@drawable/ic_mail_24"
+        android:title="Cadastro Veiculos"
+        android:id="@+id/cadastro_veiculo"
+        android:titleCondensed="Veiculos"
+        android:icon="@drawable/ic_car_24"
         />
 </group>
+    <group android:checkableBehavior="single">
+        <item
+            android:title="Cadastrar Postos"
+            android:id="@+id/cadastro_posto"
+            android:titleCondensed="Posto"
+            android:icon="@drawable/ic_home_work_24"
+            />
+    </group>
 </menu>

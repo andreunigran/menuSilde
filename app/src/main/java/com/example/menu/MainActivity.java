@@ -8,7 +8,6 @@ import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
 
 import android.os.Bundle;
-import android.view.Gravity;
 import android.view.MenuItem;
 
 import com.google.android.material.navigation.NavigationView;
@@ -32,9 +31,16 @@ public class MainActivity extends AppCompatActivity{
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
 
                 switch (item.getItemId()){
-                    case R.id.it_email:
-                        getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,new MessageFragment()).commit();
+                    case R.id.cadastro_veiculo:
+                        getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,new CadastroVeiculo()).commit();
+                        drawerLayout.closeDrawer(GravityCompat.START);
                         break;
+                    case R.id.cadastro_posto:
+                        getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,new CadastroPosto()).commit();
+                        drawerLayout.closeDrawer(GravityCompat.START);
+                        break;
+
+
                 }
 
                 return true;

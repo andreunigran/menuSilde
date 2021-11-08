@@ -3,4 +3,13 @@
     <string name="nomeCampo">ertegfdsgsdf</string>
     <string name="close">Fechar</string>
     <string name="open">Abrir</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="salvar">Salvar</string>
+    <string name="hint_nome">Entre com o Nome</string>
+    <string name="hint_endereco">Entre com o Endereço</string>
+    <string name="placa">Entre com a Placa</string>
+    <string name="cor">Entre com a cor</string>
+    <string name="km">Entre com a KM atual</string>
+    <string name="vazio" />
 </resources>
